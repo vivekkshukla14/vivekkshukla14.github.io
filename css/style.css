@@ -12,7 +12,7 @@ html {
 /* PARALLAX  */
 .bg-image {
   background-image: url(../images/bg-image.jpg);
-  background-repeat: repeat-y;
+  background-repeat: repeat-x;
   display: flex;
   align-items: center;
   /* min-height: 100vh; */
