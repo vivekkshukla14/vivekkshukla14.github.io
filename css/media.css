@@ -72,6 +72,7 @@
   }
   .parallax-details {
     justify-content: center;
+    margin: 0.5em 0.6em;
     font-size: 0.9em;
   }
 }
