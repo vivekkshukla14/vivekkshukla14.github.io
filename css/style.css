@@ -12,8 +12,6 @@ html {
 /* PARALLAX  */
 .bg-image {
   background-image: url(../images/bg-image.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   min-height: 100vh;
@@ -147,6 +145,7 @@ a {
 .content {
   height: auto;
   /* min-height: 80vh; */
+  min-height: fit-content;
   margin: 0% 15%;
   justify-content: center;
 }
