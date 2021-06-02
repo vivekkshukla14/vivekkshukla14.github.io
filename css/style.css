@@ -16,7 +16,7 @@ html {
   background-size: cover;
   display: flex;
   align-items: center;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   height: auto;
   padding-top: 4rem;
   padding-bottom: 0.5rem;
@@ -146,7 +146,7 @@ a {
 }
 .content {
   height: auto;
-  min-height: 80vh;
+  /* min-height: 80vh; */
   margin: 0% 15%;
   justify-content: center;
 }
