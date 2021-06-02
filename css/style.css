@@ -145,7 +145,7 @@ a {
 }
 .content {
   height: auto;
-  min-height: fit-content;
+  /* min-height: fit-content; */
   margin: 0% 15%;
   justify-content: center;
 }
