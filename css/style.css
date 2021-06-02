@@ -13,7 +13,6 @@ html {
 .bg-image {
   background-image: url(../images/bg-image.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
   min-height: 100vh;
