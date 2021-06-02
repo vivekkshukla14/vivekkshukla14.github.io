@@ -144,8 +144,7 @@ a {
 }
 .content {
   height: auto;
-  /* min-height: 80vh; */
-  min-height: fit-content;
+  min-height: 80vh;
   margin: 0% 15%;
   justify-content: center;
 }
