@@ -75,7 +75,7 @@
     font-size: 0.9em;
   }
   .bg-image {
-    min-height: 50vh !important;
+    min-height: 0vh !important;
     height: auto;
   }
 }
