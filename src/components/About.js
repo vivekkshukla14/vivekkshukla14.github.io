@@ -28,7 +28,7 @@ export default class About extends Component {
                   <p className="about-text normal-text color2">
                     <span>{resumeData.name}</span>
                     <br />
-                    <span>
+                    {/* <span>
                       <a
                         href={resumeData.website}
                         target="_blank"
@@ -38,8 +38,8 @@ export default class About extends Component {
                       >
                         Personal Portfolio
                       </a>
-                    </span>
-                    <br />
+                    </span> 
+                    <br />*/}
                     <span className="color1">
                       Email : <span className="color2">{resumeData.email}</span>
                     </span>
