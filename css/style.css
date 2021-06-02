@@ -15,7 +15,7 @@ html {
   background-repeat: repeat-x;
   display: flex;
   align-items: center;
-  /* min-height: 100vh; */
+  min-height: 100vh !important;
   height: auto;
   padding-top: 4rem;
   padding-bottom: 0.5rem;
