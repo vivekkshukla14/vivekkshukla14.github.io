@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Oswald;
+  scroll-behavior: smooth;
+}
+html {
+  scroll-padding-top: 100px;
+}
+
+/* PARALLAX  */
+.bg-image {
+  background-image: url(../images/bg-image.jpg);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  padding-top: 4rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  /* z-index: -9999; */
+}
+.parallax-details {
+  margin: 1.5em 0.6em;
+  font-size: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parallax-details a {
+  text-decoration: none;
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+}
+.parallax-details a:hover {
+  text-decoration: none;
+  color: #1b9bff;
+  font-weight: 800;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: 0.2s ease-in-out;
+}
+
+.parallax-details a:active {
+  color: green;
+}
+.parallax-link {
+  font-weight: 200;
+  border-width: 1px;
+  margin: 0.6rem 0.6rem;
+  white-space: normal;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.parallax-btn {
+  color: #369fc5;
+  justify-content: center;
+  bottom: 1%;
+  margin-top: 9%;
+  display: inline-block;
+  transition: 0.5s;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+}
+/* COMPONENTS */
+#about {
+  margin-top: 60px;
+  height: auto;
+  z-index: 1;
+}
+#employment {
+  height: auto;
+  z-index: 2;
+}
+#education {
+  height: auto;
+  z-index: 3;
+}
+#projects {
+  height: auto;
+  z-index: 4;
+}
+#skills {
+  height: auto;
+  z-index: 5;
+}
+
+#contact {
+  width: 100%;
+  background: #111;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  z-index: 6;
+  height: auto;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.color1 {
+  color: #262a33;
+}
+
+.color2 {
+  color: #f0eaea;
+}
+.heading {
+  font-size: 35px;
+  font-weight: 700;
+  text-shadow: 0 0 0.8px #000;
+}
+
+.sub-heading {
+  padding-top: 1%;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 0 0 0.8px #000;
+}
+
+.heading1 {
+  padding-top: 1%;
+  font-size: 22px;
+  font-weight: 600;
+  text-shadow: 0 0 0.8px #000;
+}
+.heading2 {
+  padding-top: 1%;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 0 0 0.8px #000;
+}
+.normal-text {
+  padding-top: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2em;
+}
+.content {
+  height: auto;
+  min-height: 80vh;
+  margin: 0% 15%;
+  justify-content: center;
+}
+
+.App hr {
+  width: 80%;
+  margin: 5% 10%;
+  box-shadow: 0 0 10px 3px #75b4c0;
+  border-bottom: 2px solid #fff;
+  border-radius: 25px;
+}
+
+body {
+  z-index: -5000;
+  top: 0%;
+  width: 100%;
+  overflow-x: hidden;
+  /* background-image: url("../images/cover11.jpg"); */
+  background-image: linear-gradient(to right bottom, #7f82cc, #47dcb4, #c24990);
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background-size: 600% 600%;
+  animation: gradient 10s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Nav-Bar */
+nav {
+  background: #262a33;
+  position: fixed;
+  height: 75px;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+  z-index: 9999;
+  transition: top 0.3s;
+}
+.nav-logo {
+  height: 85px;
+  width: 230px;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.nav-main li a.active,
+a.hover {
+  background: #1b9bff;
+  transition: 0.5s;
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+/* Nav-bar end */
+
+/* ABOUT */
+
+#about .profile-pic {
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  margin-top: 2%;
+  border-radius: 100%;
+}
+.about-text {
+  line-height: 1.3em;
+}
+
+.profile-pic-container {
+  display: grid;
+  place-items: center;
+}
+
+.cv-container {
+  display: grid;
+  place-items: center;
+}
+
+/* Education */
+.card-header {
+  color: #75b4c0;
+}
+.accordion {
+  border-radius: 100%;
+}
+.view-more {
+  float: right;
+}
+
+/* FOOTER */
+.main-content {
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .footer-content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .footer-content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .footer-content:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .footer-content p {
+  text-align: justify;
+}
+.left .footer-content .social {
+  margin: 20px 0 0 0;
+}
+.left .footer-content .social a {
+  padding: 0 2px;
+}
+.left .footer-content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .footer-content .social a span:hover {
+  background: #f12020;
+}
+.center .footer-content .fas {
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .footer-content .fas:hover {
+  background: #f12020;
+}
+.center .footer-content .text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .footer-content .phone {
+  margin: 15px 0;
+}
+.right form .text {
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #edecec;
+}
+.right form .msg {
+  margin-top: 10px;
+}
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #8f8b8b;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus {
+  outline-color: #3498db;
+  background-color: #fff;
+}
+
+.right form input {
+  height: 35px;
+}
+.right form .btn {
+  margin-top: 10px;
+  width: 100%;
+}
+.right form .btn button {
+  height: 40px;
+
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.right form .btn button:hover {
+  color: #fff;
+}
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span {
+  color: #656565;
+}
+.bottom center a {
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
