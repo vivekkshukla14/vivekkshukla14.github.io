@@ -151,7 +151,7 @@ let resumeData = {
       projectNo: "project2",
       projectName: "Attendace Management System",
       timeFrame:
-        "Oct, 2018 | Technologies : Java , Servlets , JSP , JDBC , MySQL",
+        "Oct, 2019 | Technologies : Java , Servlets , JSP , JDBC , MySQL",
       description:
         "Developed an Attendance Management System: The Basic web application to record and maintain the attendance details of a particular institution.",
     },
