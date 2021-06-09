@@ -73,14 +73,14 @@ let resumeData = {
         "Chandigarh College of Engineering & Technology,Chandigarh",
       course: "BE in CSE",
       timeFrame: "July 2018 - Present",
-      score: "6.76 till 6th Sem",
+      score: "6.74 till 6th Sem",
     },
     {
       universityName:
         "Chandigarh College of Engineering & Technology,Chandigarh",
       course: "Diploma in CSE",
       timeFrame: "July 2015 - June 2018",
-      score: "71.5%",
+      score: "71.35%",
     },
     {
       universityName: "Shishu Niketan Sr. Sec. School,Chandigarh",
