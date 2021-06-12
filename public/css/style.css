@@ -12,7 +12,8 @@ html {
 /* PARALLAX  */
 .bg-image {
   background-image: url(../images/bg-image.jpg);
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: center;
   min-height: 100vh !important;
@@ -163,9 +164,15 @@ body {
   top: 0%;
   width: 100%;
   overflow-x: hidden;
-  /* background-image: url("../images/cover11.jpg"); */
-  background-image: linear-gradient(to right bottom, #7f82cc, #47dcb4, #c24990);
+  /* background-image: linear-gradient(to right bottom, #7f82cc, #47dcb4, #c24990); */
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+  background: linear-gradient(
+    to right bottom,
+    #3f2922,
+    #f0c55a,
+    #23a6d5,
+    #23d5ab
+  );
   background-size: 600% 600%;
   animation: gradient 10s ease infinite;
 }
@@ -370,10 +377,11 @@ a.hover {
 .right form .btn {
   margin-top: 10px;
   width: 100%;
+  padding: 0%;
 }
 .right form .btn button {
   height: 40px;
-
+  padding: 0%;
   width: 100%;
   border: none;
   outline: none;

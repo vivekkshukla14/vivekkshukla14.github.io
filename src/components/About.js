@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "@material-ui/core/Button";
 import ButtonGroup from "@material-ui/core/ButtonGroup";
-import { Image } from "semantic-ui-react";
+// import { Image } from "semantic-ui-react";
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -9,14 +9,14 @@ export default class About extends Component {
       <div className="section-div">
         <section id="about" className="content">
           <div className="">
-            <div centered columns={6} className="profile-pic-container">
+            {/* <div centered columns={6} className="profile-pic-container">
               <Image
                 className="profile-pic"
                 circular
                 src={process.env.PUBLIC_URL + "/images/Photo_1.jpg"}
                 alt="profilePic"
               />
-            </div>
+            </div> */}
 
             <div className="about-container">
               <span className="heading color1">About Me</span>
