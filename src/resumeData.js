@@ -73,7 +73,7 @@ let resumeData = {
         "Chandigarh College of Engineering & Technology,Chandigarh",
       course: "BE in CSE",
       timeFrame: "July 2018 - Present",
-      score: "6.74 till 6th Sem",
+      score: "7.23 CGPA till 7th Sem",
     },
     {
       universityName:
