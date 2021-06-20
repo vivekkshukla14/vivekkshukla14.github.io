@@ -96,7 +96,7 @@ let resumeData = {
       startDate: "Jan 2021",
       endDate: "Present",
       Description:
-        "Working as Java Developer on the Java Swings Based Desktop Application developed Using Java Swings ,Apache Spark. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing onf API on different servers using PostMan Application. My Current tasks were to change the appliation to work with the Swing Worker functionality.",
+        "Working as Java Developer on the Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing onf API on different servers using PostMan Application. My Current tasks were to change the appliation to work with the Swing Worker functionality.",
     },
   ],
   skillsDescription: "Skills",
