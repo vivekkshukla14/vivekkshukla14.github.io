@@ -8,12 +8,18 @@
 html {
   scroll-padding-top: 100px;
 }
-
+.App {
+  background-image: url(../images/6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* PARALLAX  */
 .bg-image {
   background-image: url(../images/bg-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   min-height: 100vh !important;
@@ -125,7 +131,6 @@ a {
   font-weight: 600;
   text-shadow: 0 0 0.8px #000;
 }
-
 .heading1 {
   padding-top: 1%;
   font-size: 22px;
