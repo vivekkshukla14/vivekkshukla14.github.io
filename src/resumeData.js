@@ -168,7 +168,7 @@ let resumeData = {
       projectName: "JavaPad",
       timeFrame: "Jun, 2018 | Technologies : Java Swings",
       description:
-        "Developed a Fee Management System- A Basic Desktop application to store, update, retrieve and delete the details of the students and students can raise their queries to the teacher as well as to an admin.",
+        "Developed a Purely Java Based Text Editor - JavaPad as a alternative to Notepad. It is developed for the purpose of the editing Text or to Save a new text in a file or to edit the already saved text in a file.",
     },
   ],
 };
