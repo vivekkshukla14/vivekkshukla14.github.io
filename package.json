@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vivekkshukla1410.github.io",
+  "homepage": "http://vivekkshukla14.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@material-ui/core": "^4.11.4",
@@ -11,10 +11,11 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.1",
     "jquery": "^3.6.0",
+    "npm": "^9.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.3",
     "web-vitals": "^1.1.2"

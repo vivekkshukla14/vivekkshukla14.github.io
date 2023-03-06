@@ -4,9 +4,9 @@ let resumeData = {
   linkedinId: "vivekkshukla14",
   skypeid: "vivek.kshukla14",
   viewResume:
-    "https://drive.google.com/file/d/1w-0nod4wx2WMvomhC34r8MebSW7-pefD/view",
+    "https://drive.google.com/file/d/1rG6Ah0Te4rrIAvBDgtW1VF2HcDpp6oJr/view",
   downloadResume:
-    "https://drive.google.com/uc?export=download&id=1w-0nod4wx2WMvomhC34r8MebSW7-pefD",
+    "https://drive.google.com/uc?export=download&id=1rG6Ah0Te4rrIAvBDgtW1VF2HcDpp6oJr",
   footerAbout:
     "I am Here to fulfil your every need that arises which has a front end and a back one.",
   email: "vivek.kshukla14@gmail.com",
@@ -64,7 +64,8 @@ let resumeData = {
     },
   ],
   aboutme:
-    "I am currently a final year student at The CCET,CHD pursuing my B.E from here. I am on the road to become Full Stack Developer, currently diving deeper into Web Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "I completed my bachelorette in Computer Science from CCET, Sector 26, Chandigarh, in 2021.Till now I have been working as a Java Tech Stack exploring different framework and getting hands on as much as i can. \
+     I am on the road to become Full Stack Developer, currently diving deeper into Web Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
   address: "India",
   website: "https://vivekkshukla14.github.io",
   education: [
@@ -72,8 +73,8 @@ let resumeData = {
       universityName:
         "Chandigarh College of Engineering & Technology,Chandigarh",
       course: "BE in CSE",
-      timeFrame: "July 2018 - Present",
-      score: "7.23 CGPA till 7th Sem",
+      timeFrame: "July 2018 - July 2021",
+      score: "7.46 CGPA",
     },
     {
       universityName:
@@ -91,12 +92,23 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Gemini Solutions Private Limited",
+      specialization: "Sofware Engineer",
+      startDate: "May 2022",
+      endDate: "Present",
+      Description:
+        "Working on backend functionality for Gemini internal projects. Developing and maintaining scalable and efficient microservices to support different kinds of aspects in the projects. \
+         Currently Exploring React Framework to work on the client projects and managing backend api and migrating applications to Microserives and react framework. ",
+    },
+    {
       CompanyName: "Zversal Private Limited",
       specialization: "Java Developer",
       startDate: "Jan 2021",
-      endDate: "Present",
+      endDate: "May 2022",
       Description:
-        "Working as Java Developer on the Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing on API on different servers using Postman Application. My Current tasks were to change the application to work with the Swing Worker functionality.",
+        "Worked as a Java Developer on the Java Swings Based Desktop Application developed Using Java Swings ,Spark Java. My Work includes meeting the client requirements like UI changes \
+         and feature requests made by them. My Other tasks includes testing the components which we changed and are changing along with the testing on API on different servers using Postman \
+         Application. My Current tasks were to change the application to work with the Swing Worker functionality.",
     },
   ],
   skillsDescription: "Skills",
