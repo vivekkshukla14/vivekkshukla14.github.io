@@ -162,6 +162,7 @@ let resumeData = {
       description:
         "This application is designed to be one stop solutions to manage your entirely working under \
          Gemini solutions like applying leaves ,referral, timesheet, appraisal etc. I am one of the person responsible for maintenance, feature request and all changes for the application.",
+      link: "",
     },
     {
       projectNo: "project2",
@@ -171,6 +172,7 @@ let resumeData = {
       description:
         "This Application provides the Realtime updates of the colleague on the website about what they post and how they feeling. They can easily post how \
          they are feeling to express their emotions.",
+      link: "",
     },
     {
       projectNo: "project3",
@@ -180,6 +182,7 @@ let resumeData = {
       description:
         "It displays and visualizes data of Stock Market in the form of tables and graph. The User Can customize different Tabs according to its personal preferences and integrate different component in the \
         multiple tabs to keeps tracks of the companies",
+      link: "",
     },
     {
       projectNo: "project4",
@@ -188,13 +191,33 @@ let resumeData = {
         "April, 2021 - June, 2021 | Technologies : C#, Spark Java, VBA ,Struts Backend",
       description:
         "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view. It will display the type of data that we selected. ",
+      link: "",
     },
     {
       projectNo: "project5",
-      projectName: "JavaPad",
+      projectName: "Personal - Student Portal",
+      timeFrame: "Jan, 2021 | Technologies : Java, Spark Java, JDBC, MySQL",
+      description:
+        "Web Applications created using Java and spark using JDBC MySQL connection at the backed. We are performing Create ,Read ,Update and deletion operation. We are using bean class and reading \
+         database details using a config.properties file for easy access and updation.We are dealing data in JSON format.",
+      link: "https://github.com/vivekkshukla14/SparkJava-StudentPortal",
+    },
+    {
+      projectNo: "project6",
+      projectName: "Personal - Fee Management System",
+      timeFrame: "Jun, 2019 | Technologies : Java Swings, JDBC, MySQL",
+      description:
+        "Developed a Fee Management System -A Desktop application to store, update, retrieve and delete the details of the students and students can raise their queries to the teacher as well as \
+         to an admin. Accountant can see total collection.",
+      link: "https://github.com/vivekkshukla14/FeeManagementSystem",
+    },
+    {
+      projectNo: "project7",
+      projectName: "Personal - JavaPad",
       timeFrame: "Jun, 2018 | Technologies : Java Swings",
       description:
         "Developed a Purely Java Based Text Editor - JavaPad as a alternative to Notepad. It is developed for the purpose of the editing Text or to Save a new text in a file or to edit the already saved text in a file.",
+      link: "https://github.com/vivekkshukla14/javapad",
     },
   ],
 };

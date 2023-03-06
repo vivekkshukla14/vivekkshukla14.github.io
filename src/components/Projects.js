@@ -60,6 +60,14 @@ export default class Projects extends Component {
                               <p className="normal-text color1 text-justify">
                                 {item.description}
                               </p>
+                              {item.link ? (
+                                <a
+                                  href={item.link}
+                                  className="heading2 color1 text-wrap"
+                                >
+                                  Github
+                                </a>
+                              ) : null}
                             </Card.Body>
                           </Accordion.Collapse>
                         </Card>
