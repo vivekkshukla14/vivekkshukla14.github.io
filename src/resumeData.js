@@ -98,7 +98,9 @@ let resumeData = {
       endDate: "Present",
       Description:
         "Working on backend functionality for Gemini internal projects. Developing and maintaining scalable and efficient microservices to support different kinds of aspects in the projects. \
-         Currently Exploring React Framework to work on the client projects and managing backend api and migrating applications to Microserives and react framework. ",
+         Currently Exploring React Framework to work on the client projects and managing backend api and migrating applications to Microserives and react framework. \
+         I am responsible for managing backend for a inhouse project of Employee Management System - developed on microservice model using Spring boot. I handle junior dev at day to day \
+         level and help them in their growth while utilizing their potential towards company growth as the focus.",
     },
     {
       CompanyName: "Zversal Private Limited",
@@ -152,31 +154,43 @@ let resumeData = {
   ],
   projects: [
     {
-      default: "Student Portal",
+      default: "Employee Management System",
       projectNo: "project1",
-      projectName: "Student Portal",
-      timeFrame: "Jan, 2021 | Technologies : Java ,Spark Java , JDBC , MySQL",
+      projectName: "Employee Management System",
+      timeFrame:
+        "Oct, 2022 - Present | Technologies : Java (SpringBoot), PostgreSQL, Angular (For UI)",
       description:
-        "Web Applications created using Java and spark using JDBC MySQL connection at the backed. We are performing Create ,Read ,Update and deletion operation. We are using bean class and reading database details using a config.properties file for easy access and updation.We are dealing data in JSON format.",
+        "This application is designed to be one stop solutions to manage your entirely working under \
+         Gemini solutions like applying leaves ,referral, timesheet, appraisal etc. I am one of the person responsible for maintenance, feature request and all changes for the application.",
     },
     {
       projectNo: "project2",
-      projectName: "Attendace Management System",
+      projectName: "Social Updates Web Application Backend",
       timeFrame:
-        "Oct, 2019 | Technologies : Java , Servlets , JSP , JDBC , MySQL",
+        "May, 2022 - Oct, 2022 | Technologies : Java (SpringBoot), PostgreSQL, ReactJS",
       description:
-        "Developed an Attendance Management System: The Basic web application to record and maintain the attendance details of a particular institution.",
+        "This Application provides the Realtime updates of the colleague on the website about what they post and how they feeling. They can easily post how \
+         they are feeling to express their emotions.",
     },
     {
       projectNo: "project3",
-      projectName: "Fee Management System",
-      timeFrame: "Jun, 2019 | Technologies : Java Swings, JDBC ,MySQL",
+      projectName: "Desktop Application To Monitor Real Time Market Data",
+      timeFrame:
+        "March, 2021 - May, 2022 | Technologies : Java Swings, Spark Java , Struts Backend",
       description:
-        "Developed a Fee Management System -A Desktop application to store, update, retrieve and delete the details of the students and students can raise their queries to the teacher as well as to an admin. Accountant can see total collection.",
+        "It displays and visualizes data of Stock Market in the form of tables and graph. The User Can customize different Tabs according to its personal preferences and integrate different component in the \
+        multiple tabs to keeps tracks of the companies",
     },
-
     {
       projectNo: "project4",
+      projectName: "Excel Integrated Application To display Market Data",
+      timeFrame:
+        "April, 2021 - June, 2021 | Technologies : C#, Spark Java, VBA ,Struts Backend",
+      description:
+        "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view. It will display the type of data that we selected. ",
+    },
+    {
+      projectNo: "project5",
       projectName: "JavaPad",
       timeFrame: "Jun, 2018 | Technologies : Java Swings",
       description:
