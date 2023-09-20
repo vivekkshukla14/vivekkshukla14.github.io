@@ -154,8 +154,27 @@ let resumeData = {
   ],
   projects: [
     {
-      default: "Employee Management System",
+      default: "Vulnerability Analysis and Promotion Service",
       projectNo: "project1",
+      projectName: "Vulnerability Analysis and Promotion Service",
+      timeFrame:
+        "May, 2023 - Present | Technologies : Spring boot , Coverity, Blackduck , Java , Multithreading",
+      description:
+        "Working on a Service to verify vulnerabilities before promoting any application to any Staging and Prod based environment to make the application secure.",
+      link: "",
+    },
+    {
+      projectNo: "project2",
+      projectName: "Ingestion App",
+      timeFrame:
+        "Jan, 2023 - Present | Technologies : Spring Boot , React JS, H2",
+      description:
+        "This Application helps in resolving the issue of manually adding projects to run vulnerability scan on different tools for a Vulnerability Dashboard app. With this app we can easily ingest data of multiple project using excel sheet with single click saving a lot of time and effort.",
+      link: "",
+    },
+    {
+      default: "Employee Management System",
+      projectNo: "project3",
       projectName: "Employee Management System",
       timeFrame:
         "Oct, 2022 - Present | Technologies : Java (SpringBoot), PostgreSQL, Angular (For UI)",
@@ -165,7 +184,7 @@ let resumeData = {
       link: "",
     },
     {
-      projectNo: "project2",
+      projectNo: "project4",
       projectName: "Social Updates Web Application Backend",
       timeFrame:
         "May, 2022 - Oct, 2022 | Technologies : Java (SpringBoot), PostgreSQL, ReactJS",
@@ -175,7 +194,7 @@ let resumeData = {
       link: "",
     },
     {
-      projectNo: "project3",
+      projectNo: "project5",
       projectName: "Desktop Application To Monitor Real Time Market Data",
       timeFrame:
         "March, 2021 - May, 2022 | Technologies : Java Swings, Spark Java , Struts Backend",
@@ -185,16 +204,16 @@ let resumeData = {
       link: "",
     },
     {
-      projectNo: "project4",
+      projectNo: "project6",
       projectName: "Excel Integrated Application To display Market Data",
       timeFrame:
-        "April, 2021 - June, 2021 | Technologies : C#, Spark Java, VBA ,Struts Backend",
+        "April, 2021 - December, 2021 | Technologies : C#, Spark Java, VBA ,Struts Backend",
       description:
         "It helps in monitoring Real Time Stock Data on Excel. We Simply need to add Some tickers/symbol and select what type of data we want to view. It will display the type of data that we selected. ",
       link: "",
     },
     {
-      projectNo: "project5",
+      projectNo: "project7",
       projectName: "Personal - Student Portal",
       timeFrame: "Jan, 2021 | Technologies : Java, Spark Java, JDBC, MySQL",
       description:
@@ -203,7 +222,7 @@ let resumeData = {
       link: "https://github.com/vivekkshukla14/SparkJava-StudentPortal",
     },
     {
-      projectNo: "project6",
+      projectNo: "project8",
       projectName: "Personal - Fee Management System",
       timeFrame: "Jun, 2019 | Technologies : Java Swings, JDBC, MySQL",
       description:
@@ -212,7 +231,7 @@ let resumeData = {
       link: "https://github.com/vivekkshukla14/FeeManagementSystem",
     },
     {
-      projectNo: "project7",
+      projectNo: "project9",
       projectName: "Personal - JavaPad",
       timeFrame: "Jun, 2018 | Technologies : Java Swings",
       description:
