@@ -4,9 +4,9 @@ let resumeData = {
   linkedinId: "vivekkshukla14",
   skypeid: "vivek.kshukla14",
   viewResume:
-    "https://drive.google.com/file/d/1rG6Ah0Te4rrIAvBDgtW1VF2HcDpp6oJr/view",
+    "https://drive.google.com/file/d/1NFXVL0ckDR5LWnyDq_emFB8UvPvR8uWf/view",
   downloadResume:
-    "https://drive.google.com/uc?export=download&id=1rG6Ah0Te4rrIAvBDgtW1VF2HcDpp6oJr",
+    "https://drive.google.com/uc?export=download&id=1NFXVL0ckDR5LWnyDq_emFB8UvPvR8uWf",
   footerAbout:
     "I am Here to fulfil your every need that arises which has a front end and a back one.",
   email: "vivek.kshukla14@gmail.com",
